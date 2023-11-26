@@ -1,0 +1,79 @@
+.btn {
+
+    margin: 2em;
+
+}
+
+
+.shapeText {
+
+    font-size: large;
+    margin-left: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-right: 2em;
+
+}
+
+.shapeLabel {
+
+    font-size: Larger;
+    padding-left: 2em;
+    font-weight: bolder;
+}
+
+.shapeSetup {
+
+    border: 2px solid black;
+    margin: 2em;
+}
+
+#shapeBoard {
+
+    height: 600px;
+    width: 600px;
+    background-color: cyan;
+    margin-right: 25px;
+    display: inline-flex;
+    margin-left: 100px;
+    float: left;
+
+}
+
+#infoBoard {
+
+    height: 600px;
+    width: 10em;
+    display: inline-block;
+    background-color: orange;
+    font-size: 2em;
+    padding-left: 20px;
+
+}
+
+
+.square {
+    background: red;
+    position: absolute;
+}
+
+.rectangle {
+    background: green;
+    position: absolute;
+}
+
+
+.circle {
+    background: purple;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid yellow;
+    border-right: 50px solid transparent;
+    position: absolute;
+}

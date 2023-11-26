@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shape up or shape out</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="buttons">
+        <form>
+            <div class="rectangleSetup shapeSetup">
+                <label class="shapeLabel">Rectangle</label>
+                <label class="shapeText">Rectangle Width</label>
+                <input type="text" id="wrectangle" name="widthRectangle">
+                <label class="shapeText">Rectangle Height</label>
+                <input type="text" id="hrectangle" name="heightRectangle">
+                <input class="btn" type="submit" id="rectangleBtn" value="Submit">
+            </div>
+            <div class="squareSetup shapeSetup">
+                <label class="shapeLabel">square</label>
+                <label class="shapeText">Side Length</label>
+                <input type="text" id="sideLengthSquare" name="sideLengthSquare">
+                <input class="btn" type="submit" id="squareBtn" value="Submit">
+            </div>
+            <div class="circleSetup shapeSetup">
+                <label class="shapeLabel">circle</label>
+                <label class="shapeText">Input Radius</label>
+                <input type="text" id="inputRadiusCircle" name="inputRadiusCircle">
+                <input class="btn" type="submit" id="circleBtn" value="Submit">
+            </div>
+            <div class="isosceleseSetup shapeSetup">
+                <label class="shapeLabel">triangle</label>
+                <label class="shapeText">Height</label>
+                <input type="text" id="heightIso" name="heightIso">
+                <input class="btn" type="submit" id="isoBtn" value="Submit">
+            </div>
+        </form>
+    </div>
+    <div id="shapeBoard"></div>
+    <div id="infoBoard">
+        <h6 id="shapeName">Shape Name: <span></span></h6>
+        <h6 id="width">Width: <span></span></h6>
+        <h6 id="height">Height: <span></span></h6>
+        <h6 id="radius">Radius: <span></span></h6>
+        <h6 id="area">Area: <span></span></h6>
+        <h6 id="perimeter">Perimeter: <span></span></h6>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
